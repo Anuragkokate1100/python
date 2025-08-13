@@ -1,7 +1,10 @@
-string = "  Hello, World!  "
+def input(n1,n2=35):
+    
+    print(n1)
+    print(n2)
+    print(n1+n2)
 
-print(len(string))         
-print(string.strip()) 
-print("Hello".lower())   
-print("Hello".upper())  
-print(string.split(","))    
+input(35,30)
+print("another input:")
+input(20,30)
+
